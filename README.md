@@ -9,12 +9,14 @@ Free tools for genealogists working with East Asian records.
 
 ## Download
 
+<!-- downloads:start -->
 | | Windows | Android | iPhone |
 |---|---|---|---|
-| **Transliterator** | [Download .exe](https://github.com/chulkeesung/genealogy-tools/releases/latest) | [Download .apk](https://github.com/chulkeesung/genealogy-tools/releases/latest) | Coming soon |
-| **Year Calculator** | [Download .exe](https://github.com/chulkeesung/genealogy-tools/releases/latest) | [Download .apk](https://github.com/chulkeesung/genealogy-tools/releases/latest) | Coming soon |
+| **Transliterator** | Coming soon | Coming soon | Coming soon |
+| **Year Calculator** | Coming soon | Coming soon | Coming soon |
+<!-- downloads:end -->
 
-All versions are on the [Releases page](https://github.com/chulkeesung/genealogy-tools/releases).
+The current and previous versions are on the [Releases page](https://github.com/chulkeesung/genealogy-tools/releases).
 
 ### Installing
 
