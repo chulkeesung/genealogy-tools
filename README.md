@@ -2,6 +2,10 @@
 
 Free tools for genealogists working with East Asian records.
 
+**About this repository:** it is a download site only. It holds the ready-to-install apps and the pages for
+downloading them - no source code. The source is kept privately, and new versions are added here only by the
+maintainer. Problems and suggestions are welcome as [issues](https://github.com/chulkeesung/genealogy-tools/issues).
+
 | Tool | What it does |
 |---|---|
 | [Transliterator](transliterator/) | Converts Hanja (漢字) to Hangul (한글), then to Roman letters |
