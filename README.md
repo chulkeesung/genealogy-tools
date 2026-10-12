@@ -6,11 +6,12 @@ Free tools for genealogists working with East Asian records.
 downloading them - no source code. The source is kept privately, and new versions are added here only by the
 maintainer. Problems and suggestions are welcome as [issues](https://github.com/chulkeesung/genealogy-tools/issues).
 
-| Tool | What it does |
-|---|---|
-| [Transliterator](transliterator/) | Converts Hanja (漢字) to Hangul (한글), then to Roman letters |
-| [Year Calculator](year-calculator/) | Converts years in Chinese, Japanese, and Korean (CJK) calendars to Western years |
-| [족보읽기 Reading Jokbo](reading-jokbo/) | All of the above in one app, plus Korean Chess (장기) - **available now** |
+**[족보읽기 Reading Jokbo](reading-jokbo/)** - one app for reading Korean genealogies (족보):
+
+- **CJK-Year-Calculator:** converts years in Korean, Chinese and Japanese (CJK) calendars to Western years
+- **Hanja→Hangul:** converts Hanja (漢字) to Hangul (한글), optionally on to Roman letters
+- **Hangul→Roman:** Revised Romanization, with customary surname spellings
+- **Korean-Chess** (장기), and on a computer also a FamilySearch **Name-Search**
 
 ## Download
 
@@ -18,35 +19,33 @@ maintainer. Problems and suggestions are welcome as [issues](https://github.com/
 | | Windows | Android | iPhone | Computer (Java) |
 |---|---|---|---|---|
 | **[족보읽기 Reading Jokbo](reading-jokbo/)** <br><sub>v1.0.0</sub> | Coming soon | [Download .apk](reading-jokbo/android/reading-jokbo-1.0.0-android.apk) | Coming soon | [Download .jar](reading-jokbo/desktop/reading-jokbo-1.0.0-desktop.jar) |
-| **[Transliterator](transliterator/)** | Coming soon | Coming soon | Coming soon | Coming soon |
-| **[Year Calculator](year-calculator/)** | Coming soon | Coming soon | Coming soon | Coming soon |
 <!-- downloads:end -->
 
-Each tool's folder keeps the current version and the one before it.
+The app's folder keeps the current version and the one before it.
 
 ### Installing
 
-- **Windows:** Download the `.exe` and run it. If Windows SmartScreen shows a warning, click **More info → Run anyway**.
-- **Android:** Download the `.apk` on your phone, open it, and allow installs from your browser when prompted.
-  If Play Protect warns that it doesn't recognize the app, tap **More details → Install anyway**.
-- **Computer (Java):** Install Java 26 or later, then run `java -jar <file>.jar web` and open http://localhost:8080/.
-  Details in [Reading Jokbo](reading-jokbo/#computer-java).
-- **iPhone:** Coming soon.
+**Step-by-step instructions, with fixes for common problems: [Reading Jokbo ▸ install and use](reading-jokbo/#android-phone-install-and-use-the-apk).** In short:
 
-### Verifying downloads
+- **Android phone (`.apk`, Android 7.0 or later):** download it on the phone, open it, allow installing from your
+  browser when asked, then **Install**. If Play Protect warns that it doesn't recognize the app, tap
+  **More details → Install anyway**. ([details](reading-jokbo/#android-phone-install-and-use-the-apk))
+- **Computer (`.jar`, Mac, Windows or Linux):** install Java 26 or later (free from
+  [adoptium.net](https://adoptium.net)), then in a terminal, in the download's folder:
+  `java -jar reading-jokbo-<version>-desktop.jar web` and open **http://localhost:8080/** in a browser.
+  ([details](reading-jokbo/#computer-install-and-run-the-jar))
+- **Windows installer (`.exe`) and iPhone:** not yet.
 
-Each tool's folder has a `SHA256SUMS.txt` file. To check a download, run:
+### Verifying downloads (optional)
 
-```bash
-shasum -a 256 <downloaded-file>
-```
-
-and compare the result with the matching line in `SHA256SUMS.txt`.
+The folder has a `SHA256SUMS.txt` file. To check a download, run `shasum -a 256 <downloaded-file>` (Mac, Linux) or
+`Get-FileHash <downloaded-file>` (Windows PowerShell, prints the same digits in capitals) and compare the result
+with the matching line.
 
 ## Reporting problems
 
-Open an [issue](https://github.com/chulkeesung/genealogy-tools/issues) and include which tool, your device and
-its version, and what you entered, expected and got.
+Open an [issue](https://github.com/chulkeesung/genealogy-tools/issues) and include the app's version, your device and
+its system version, and what you entered, expected and got.
 
 ## License
 
