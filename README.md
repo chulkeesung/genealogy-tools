@@ -18,7 +18,7 @@ maintainer. Problems and suggestions are welcome as [issues](https://github.com/
 <!-- downloads:start -->
 | | Windows | Android | iPhone | Computer (Java) |
 |---|---|---|---|---|
-| **[족보읽기 Reading Jokbo](reading-jokbo/)** <br><sub>v1.0.0</sub> | Coming soon | [Download .apk](reading-jokbo/android/reading-jokbo-1.0.0-android.apk) | Coming soon | [Download .jar](reading-jokbo/desktop/reading-jokbo-1.0.0-desktop.jar) |
+| **[족보읽기 Reading Jokbo](reading-jokbo/)** <br><sub>v1.0.0</sub> | Coming soon | [Download .apk](https://github.com/chulkeesung/genealogy-tools/raw/main/reading-jokbo/android/reading-jokbo-1.0.0-android.apk) | Coming soon | [Download .jar](https://github.com/chulkeesung/genealogy-tools/raw/main/reading-jokbo/desktop/reading-jokbo-1.0.0-desktop.jar) |
 <!-- downloads:end -->
 
 The app's folder keeps the current version and the one before it.
@@ -27,11 +27,12 @@ The app's folder keeps the current version and the one before it.
 
 **Step-by-step instructions, with fixes for common problems: [Reading Jokbo ▸ install and use](reading-jokbo/#android-phone-install-and-use-the-apk).** In short:
 
-- **Android phone (`.apk`, Android 7.0 or later):** download it on the phone, open it, allow installing from your
-  browser when asked, then **Install**. If Play Protect warns that it doesn't recognize the app, tap
+- **Android phone (`.apk`, Android 7.0 or later):** on the phone, tap **Download .apk** in the table above (the
+  download starts right away), open it, allow installing from your browser when asked, then **Install**. If Play Protect warns that it doesn't recognize the app, tap
   **More details → Install anyway**. ([details](reading-jokbo/#android-phone-install-and-use-the-apk))
 - **Computer (`.jar`, Mac, Windows or Linux):** install Java 26 or later (free from
-  [adoptium.net](https://adoptium.net)), then in a terminal, in the download's folder:
+  [adoptium.net](https://adoptium.net)), click **Download .jar** in the table above, then in a terminal, in your
+  Downloads folder:
   `java -jar reading-jokbo-<version>-desktop.jar web` and open **http://localhost:8080/** in a browser.
   ([details](reading-jokbo/#computer-install-and-run-the-jar))
 - **Windows installer (`.exe`) and iPhone:** not yet.

@@ -18,13 +18,14 @@ It needs no account, has no ads and collects no data.
 
 ## Files
 
-The newest version is listed first; the one before it is kept for a while.
+Tap or click a file name to download it - the download starts right away. The newest version is listed first;
+the one before it is kept for a while.
 
 <!-- files:start -->
 | File | For |
 |---|---|
-| [`android/reading-jokbo-1.0.0-android.apk`](android/reading-jokbo-1.0.0-android.apk) | Android phones (Android 7 and later) |
-| [`desktop/reading-jokbo-1.0.0-desktop.jar`](desktop/reading-jokbo-1.0.0-desktop.jar) | Mac, Windows, Linux (needs Java 26 or later) |
+| [`android/reading-jokbo-1.0.0-android.apk`](https://github.com/chulkeesung/genealogy-tools/raw/main/reading-jokbo/android/reading-jokbo-1.0.0-android.apk) | Android phones (Android 7 and later) |
+| [`desktop/reading-jokbo-1.0.0-desktop.jar`](https://github.com/chulkeesung/genealogy-tools/raw/main/reading-jokbo/desktop/reading-jokbo-1.0.0-desktop.jar) | Mac, Windows, Linux (needs Java 26 or later) |
 | [`SHA256SUMS.txt`](SHA256SUMS.txt) | checking a download: `shasum -a 256 <file>` prints the same line |
 <!-- files:end -->
 
@@ -34,11 +35,11 @@ The newest version is listed first; the one before it is kept for a while.
 
 ### Install (about 2 minutes)
 
-1. **On the phone**, open this page in Chrome: `github.com/chulkeesung/genealogy-tools` ▸ **reading-jokbo** ▸
-   **android**.
-2. Tap the newest file, `reading-jokbo-<version>-android.apk`. On the file's page tap the **download** button
-   (the arrow pointing down, at the top right of the file box - "Download raw file"). If Chrome warns that the file
-   might be harmful, tap **Download anyway**.
+1. **On the phone**, open **github.com/chulkeesung/genealogy-tools** in Chrome (or the link you were sent).
+2. In the **Download** table, tap **Download .apk** (or, on this page, the `.apk` file name under **Files**). The
+   download starts right away. If Chrome asks whether to download the file or warns that it might be harmful, tap
+   **Download** / **Download anyway**.
+   - If you landed on the file's own GitHub page instead (it says the file is too big to show), tap **View raw**.
 3. When the download finishes, tap **Open** (or open the **Files** app ▸ **Downloads** and tap the file).
 4. **The first time only**, Android says it isn't allowed to install unknown apps from this source:
    tap **Settings**, turn on **Allow from this source**, then tap back (◁).
@@ -100,8 +101,9 @@ It must print version **26** or higher.
 
 ### 2. Download the `.jar` (once per version)
 
-On this page: **reading-jokbo** ▸ **desktop** ▸ the newest `reading-jokbo-<version>-desktop.jar` ▸ the
-**download** button ("Download raw file"). It lands in your **Downloads** folder.
+On **github.com/chulkeesung/genealogy-tools**, click **Download .jar** in the **Download** table (or, on this page,
+the `.jar` file name under **Files**). The download starts right away and lands in your **Downloads** folder. If
+the browser asks whether to keep the file, choose **Keep**. (On the file's own GitHub page, click **Raw**.)
 
 To check the download (optional), compare with the line in [`SHA256SUMS.txt`](SHA256SUMS.txt):
 Mac `shasum -a 256 reading-jokbo-<version>-desktop.jar`; Windows PowerShell
