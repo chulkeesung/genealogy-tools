@@ -1,5 +1,7 @@
 # 족보읽기 Reading Jokbo
 
+**English** · [한국어](README_ko.md)
+
 Tools for reading Korean genealogies (족보), in one app:
 
 - **CJK-Year-Calculator** - Korean, Chinese and Japanese reign years and sixty-year-cycle names to Western years
