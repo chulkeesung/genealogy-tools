@@ -1,5 +1,7 @@
 # Genealogy Tools
 
+**English** · [한국어](README_ko.md)
+
 Free tools for genealogists working with East Asian records.
 
 **About this repository:** it is a download site only. It holds the ready-to-install apps and the pages for
