@@ -9,6 +9,11 @@ needs no account, and collects no data.
 The newest version is listed first; the one before it is kept for a while.
 
 <!-- files:start -->
+| File | For |
+|---|---|
+| [`android/reading-jokbo-1.0.0-android.apk`](android/reading-jokbo-1.0.0-android.apk) | Android phones (Android 7 and later) |
+| [`desktop/reading-jokbo-1.0.0-desktop.jar`](desktop/reading-jokbo-1.0.0-desktop.jar) | Mac, Windows, Linux (needs Java 26 or later) |
+| [`SHA256SUMS.txt`](SHA256SUMS.txt) | checking a download: `shasum -a 256 <file>` prints the same line |
 <!-- files:end -->
 
 There is no iPhone or Windows installer yet. The computer version also has a name search.

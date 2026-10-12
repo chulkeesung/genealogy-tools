@@ -17,7 +17,7 @@ maintainer. Problems and suggestions are welcome as [issues](https://github.com/
 <!-- downloads:start -->
 | | Windows | Android | iPhone | Computer (Java) |
 |---|---|---|---|---|
-| **[족보읽기 Reading Jokbo](reading-jokbo/)** | Coming soon | Coming soon | Coming soon | Coming soon |
+| **[족보읽기 Reading Jokbo](reading-jokbo/)** <br><sub>v1.0.0</sub> | Coming soon | [Download .apk](reading-jokbo/android/reading-jokbo-1.0.0-android.apk) | Coming soon | [Download .jar](reading-jokbo/desktop/reading-jokbo-1.0.0-desktop.jar) |
 | **[Transliterator](transliterator/)** | Coming soon | Coming soon | Coming soon | Coming soon |
 | **[Year Calculator](year-calculator/)** | Coming soon | Coming soon | Coming soon | Coming soon |
 <!-- downloads:end -->
