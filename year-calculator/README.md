@@ -4,16 +4,6 @@ Converts years in Chinese, Japanese, and Korean (CJK) calendars to Western years
 
 ## Download
 
-See the [download table](../README.md#download) in the main README.
-
-## Usage
-
-_TODO: describe how to use the tool._
-
-## Building from source
-
-_TODO: build steps for Windows, Android, and iPhone._
-
-## Versions
-
-Releases of this tool are tagged `year-calculator-vX.Y.Z`.
+A standalone download is coming soon. The tool is available now inside
+[족보읽기 Reading Jokbo](../reading-jokbo/), together with the other tools - see the
+[download table](../README.md#download).
