@@ -1,0 +1,2 @@
+a95f03790ea7060b93e0b48d9d78b6e5d3942b8853668c664fe3a18432fc27cd  reading-jokbo-1.0.0-android.apk
+af37d0fe87a495ee796f47fdd5052ddc3cd94d053726e0d4b41533eb66371caf  reading-jokbo-1.0.0-desktop.jar
